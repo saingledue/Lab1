@@ -95,7 +95,7 @@ def room_call():
     else:
         return "Error: No id field provided. Please specify an id."
 
-    result = room_db[day]
+    result = room_db[room]
 
     # Use the jsonify function from Flask to convert our list of
     # Python dictionaries to the JSON format.
