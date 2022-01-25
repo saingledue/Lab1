@@ -30,7 +30,7 @@ def api_all():
 
 @app.route('/api/v1/resources/spring/professor', methods=['GET'])
 @cross_origin()
-def api_id():
+def prof_call():
     # Check if an ID was provided as part of the URL.
     # If ID is provided, assign it to a variable.
     # If no ID is provided, display an error in the browser.
@@ -48,7 +48,7 @@ def api_id():
 
 @app.route('/api/v1/resources/spring/credit', methods=['GET'])
 @cross_origin()
-def api_id():
+def cred_call():
     # Check if an ID was provided as part of the URL.
     # If ID is provided, assign it to a variable.
     # If no ID is provided, display an error in the browser.
@@ -66,7 +66,7 @@ def api_id():
 
 @app.route('/api/v1/resources/spring/days', methods=['GET'])
 @cross_origin()
-def api_id():
+def days_call():
     # Check if an ID was provided as part of the URL.
     # If ID is provided, assign it to a variable.
     # If no ID is provided, display an error in the browser.
@@ -85,7 +85,7 @@ def api_id():
 
 @app.route('/api/v1/resources/spring/room', methods=['GET'])
 @cross_origin()
-def api_id():
+def room_call():
     # Check if an ID was provided as part of the URL.
     # If ID is provided, assign it to a variable.
     # If no ID is provided, display an error in the browser.
@@ -103,7 +103,7 @@ def api_id():
 
 @app.route('/api/v1/resources/spring/time', methods=['GET'])
 @cross_origin()
-def api_id():
+def time_call():
     # Check if an ID was provided as part of the URL.
     # If ID is provided, assign it to a variable.
     # If no ID is provided, display an error in the browser.
